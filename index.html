@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Farewell Invitation</title>
+    <link rel="stylesheet" href="style.css">  <!-- Link to style.css -->
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Farewell Invitation</h1>
+            <p>Join us in bidding farewell to our seniors!</p>
+        </header>
+
+        <section class="details">
+            <h2>Event Details:</h2>
+            <p><strong>Date:</strong> March 13, 2025</p>
+            <p><strong>Time:</strong> 3:00 PM</p>
+            <p><strong>Venue:</strong> Fusion World School, Dumuriput</p>
+        </section>
+
+        <section class="Invitation form">
+            <h2>INVIATION FORM</h2>
+            <form id="invitation-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>Looking forward to seeing you there!</p>
+        </footer>
+    </div>
+
+    <!-- You Are Invited! Modal -->
+    <div id="invited-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-btn">&times;</span>
+            <h2>You Are Invited!</h2>
+            <p>We are excited to see you at the farewell event!</p>
+        </div>
+    </div>
+
+    <!-- Container for falling balloons and flowers -->
+    <div id="animations"></div>
+
+    <script src="script.js"></script>  <!-- Link to script.js -->
+
+</body>
+</html>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
